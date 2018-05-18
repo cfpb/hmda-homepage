@@ -1,12 +1,11 @@
 import React from 'react'
-import AppHeader from './AppHeader.jsx'
-import Footer from './Footer.jsx'
+import { Header, Footer } from 'hmda-ui'
 import Home from './Home.jsx'
 
 const App = () => {
   return (
     <>
-      <AppHeader />
+      <Header />
       <Home />
       <Footer />
     </>
