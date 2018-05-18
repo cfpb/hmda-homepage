@@ -27,7 +27,12 @@ const AppHeader = () => {
                 </a>
               </li>
               <li>
-                <a className="usa-nav-link" href="/filing/">
+                <a
+                  className="usa-nav-link"
+                  href="/filing/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Filing
                 </a>
               </li>
