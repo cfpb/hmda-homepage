@@ -2938,6 +2938,10 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hmda-ui@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/hmda-ui/-/hmda-ui-0.0.5.tgz#13bd2af49bface043c3c8c7336c3befb77ad92ff"
+
 hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"

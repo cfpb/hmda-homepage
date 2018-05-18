@@ -17,7 +17,7 @@
     "fonts": "cp node_modules/uswds/src/fonts/sourcesanspro-* ./dist/fonts",
     "sass:prefix": "postcss -u autoprefixer -r ./dist/css/*.css",
     "html": "html-minifier --collapse-whitespace ./src/index.html -o ./dist/index.html",
-    "img": "cp -r ./node_modules/uswds/dist/img/* ./dist/img && cp ./src/img/* ./dist/img",
+    "img": "cp -r ./node_modules/uswds/dist/img/* ./dist/img && cp ./node_modules/hmda-ui/img/* ./dist/img",
     "postinstall": "yarn run clearDist && yarn run build",
     "watch:js": "yarn run js:dev -- --watch",
     "watch:sass": "node-sass-chokidar --watch --quiet --output-style=compressed --source-map=./dist/css/ ./src/sass/app.scss ./dist/css/app.min.css",
@@ -33,6 +33,7 @@
   "author": "Consumer Financial Protection Bureau",
   "license": "CC0-1.0",
   "dependencies": {
+    "hmda-ui": "0.0.5",
     "prop-types": "15.6.0",
     "react": "16.3.2",
     "react-dom": "16.3.2",
