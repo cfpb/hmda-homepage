@@ -50,7 +50,7 @@ const Home = () => {
             Mortgage Disclosure Act (HMDA) data.
           </p>
           <ul>
-            <li>Filing Instruction Guide</li>
+            <li>Filing Instructions Guide</li>
             <ul>
               <li>
                 <a
