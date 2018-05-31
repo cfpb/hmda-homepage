@@ -8,8 +8,6 @@ if (process.env.NODE_ENV !== 'production') {
   whyDidYouUpdate(React)
 }
 
-window.HMDA_ENV = {
-  APP_URL: '##APP_URL##'
-}
+window.HMDA_ENV = {}
 
 render(<App />, document.getElementById('app'))
