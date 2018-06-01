@@ -1,12 +1,19 @@
 const path = require('path')
 const webpack = require('webpack')
+const WebpackShellPlugin = require('webpack-shell-plugin')
 
 module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/js')
   },
   devtool: 'source-map',
-  plugins: [new webpack.optimize.ModuleConcatenationPlugin()],
+  plugins: [
+    new webpack.optimize.ModuleConcatenationPlugin(),
+    new WebpackShellPlugin({
+      onBuildEnd: ['yarn run env'],
+      dev: false
+    })
+  ],
   module: {
     rules: [
       {
@@ -29,6 +36,17 @@ module.exports = {
             ]
           }
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '../css/[hash].[ext]'
+            }
+          }
+        ]
       }
     ]
   }
