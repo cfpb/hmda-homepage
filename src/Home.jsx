@@ -17,11 +17,12 @@ const Home = () => {
             <div className="usa-alert-body">
               <h3 className="usa-alert-heading">Announcement</h3>
               <p className="usa-alert-text">
-                The{' '}
-                <a href="/data-publication/aggregate-reports/2017">
-                  MSA/MD Aggregate Reports
+                Most{' '}
+                <a href="/data-publication/disclosure-reports/2017">
+                  disclosure reports
                 </a>{' '}
-                are now available.
+                are now available. Reports continue to be added as they are
+                generated.
               </p>
             </div>
           </div>
