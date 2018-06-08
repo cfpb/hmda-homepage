@@ -112,10 +112,9 @@ const Home = () => {
                 <a href="/data-publication/modified-lar">Modifed LAR</a>
               </li>
               <li>
-                Disclosure Reports{' '}
-                <span className="usa-label" style={{}}>
-                  Coming Soon
-                </span>
+                <a href="/data-publication/disclosure-reports/2017">
+                  Disclosure Reports
+                </a>
               </li>
               <li>
                 <a href="/data-publication/aggregate-reports/2017">
