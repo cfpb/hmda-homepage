@@ -122,8 +122,9 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                National Aggregate Reports{' '}
-                <span className="usa-label">Coming Soon</span>
+                <a href="/data-publication/national-aggregate-reports/2017">
+                  National Aggregate Reports
+                </a>
               </li>
               <li>
                 <a href="/data-publication/snapshot-national-loan-level-dataset">
