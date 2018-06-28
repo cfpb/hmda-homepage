@@ -17,12 +17,10 @@ const Home = () => {
             <div className="usa-alert-body">
               <h3 className="usa-alert-heading">Announcement</h3>
               <p className="usa-alert-text">
-                Most{' '}
-                <a href="/data-publication/disclosure-reports/2017">
-                  disclosure reports
+                <a href="/data-publication/national-aggregate-reports/2017">
+                  National aggregate reports
                 </a>{' '}
-                are now available. Reports continue to be added as they are
-                generated.
+                are now available.
               </p>
             </div>
           </div>
@@ -122,8 +120,9 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                National Aggregate Reports{' '}
-                <span className="usa-label">Coming Soon</span>
+                <a href="/data-publication/national-aggregate-reports/2017">
+                  National Aggregate Reports
+                </a>
               </li>
               <li>
                 <a href="/data-publication/snapshot-national-loan-level-dataset">
