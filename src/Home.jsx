@@ -17,7 +17,13 @@ const Home = () => {
             <div className="usa-alert-body">
               <h3 className="usa-alert-heading">Announcement</h3>
               <p className="usa-alert-text">
-                The Bureau issued a <a href="https://www.consumerfinance.gov/about-us/newsroom/bureau-consumer-financial-protection-issues-statement-implementation-economic-growth-regulatory-relief-and-consumer-protection-act-amendments-home-mortgage-disclosure-act/">statement</a> providing further information on the implementation of the Economic Growth, Regulatory Relief, and Consumer Protection Act amendments to the Home Mortgage Disclosure Act.
+                The Bureau issued a{' '}
+                <a href="https://www.consumerfinance.gov/about-us/newsroom/bureau-consumer-financial-protection-issues-statement-implementation-economic-growth-regulatory-relief-and-consumer-protection-act-amendments-home-mortgage-disclosure-act/">
+                  statement
+                </a>{' '}
+                providing further information on the implementation of the
+                Economic Growth, Regulatory Relief, and Consumer Protection Act
+                amendments to the Home Mortgage Disclosure Act.
               </p>
             </div>
           </div>
@@ -62,6 +68,15 @@ const Home = () => {
                   download={true}
                 >
                   For data collected in or after 2018
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf"
+                  download={true}
+                >
+                  For data collected in or after 2018 incorporating the 2018
+                  HMDA Rule
                 </a>
               </li>
               <li>
