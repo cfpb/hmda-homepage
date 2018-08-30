@@ -71,7 +71,10 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="" download={true}>
+                <a
+                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf"
+                  download={true}
+                >
                   For data collected in or after 2018 incorporating the 2018
                   HMDA Rule
                 </a>
