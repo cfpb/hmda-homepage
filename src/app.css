@@ -1,0 +1,22 @@
+@font-face {
+  font-family: SourceSansPro;
+  src: url(/fonts/sourcesanspro-regular-webfont.woff);
+}
+@font-face {
+  font-family: SourceSansProBold;
+  src: url(/fonts/sourcesanspro-bold-webfont.woff);
+}
+@font-face {
+  font-family: SourceSansProItalic;
+  src: url(/fonts/sourcesanspro-italic-webfont.woff);
+}
+html {
+  font-family: SourceSansPro;
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: SourceSansPro;
+  font-size: 1.6rem;
+}

@@ -1,14 +1,15 @@
 import React from 'react'
-import { Header, Footer } from 'hmda-ui'
+
 import Home from './Home.jsx'
+import './app.css'
 
 const App = () => {
   return (
-    <>
-      <Header />
+    <React.Fragment>
+      {/*<Header />*/}
       <Home />
-      <Footer />
-    </>
+      {/*<Footer />*/}
+    </React.Fragment>
   )
 }
 
