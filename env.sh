@@ -9,7 +9,7 @@ get_baseurl () {
 KEYCLOAK_SERVER=$(get_baseurl ${KEYCLOAK_URL})
 HMDA_API_SERVER=$(get_baseurl ${HMDA_API})
 
-files=($(ls ./dist/js/*.js 2>/dev/null))
+files=($(ls ./public/js/*.js 2>/dev/null))
   for i in "${files[@]}"
   do
     if [ -f "$i.bak" ]; then
