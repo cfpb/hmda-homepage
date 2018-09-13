@@ -9,7 +9,7 @@
 .home .card-container {
   align-items: stretch;
   display: flex;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 .home .card {
   flex: 1;
