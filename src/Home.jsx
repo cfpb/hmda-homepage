@@ -119,7 +119,7 @@ const Home = () => {
             </p>
             <ul>
               <li>
-                <a href="/data-publication/modified-lar">Modifed LAR</a>
+                <a href="/data-publication/modified-lar">Modified LAR</a>
               </li>
               <li>
                 <a href="/data-publication/disclosure-reports/2017">
