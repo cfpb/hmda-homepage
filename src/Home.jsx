@@ -119,7 +119,7 @@ const Home = () => {
             </p>
             <ul>
               <li>
-                <a href="/data-publication/modified-lar">Modifed LAR</a>
+                <a href="/data-publication/modified-lar">Modified LAR</a>
               </li>
               <li>
                 <a href="/data-publication/disclosure-reports/2017">
@@ -159,7 +159,7 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="/tools/lar-formatting">LAR formatting</a>
+                <a href="/tools/lar-formatting">LAR Formatting</a>
               </li>
               <li>
                 <a href="/tools/rate-spread">Rate Spread</a>
