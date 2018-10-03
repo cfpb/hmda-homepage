@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 
 const Home = () => {
   return (
@@ -13,10 +14,10 @@ const Home = () => {
             </p>
           </header>
 
-          <div className="usa-alert usa-alert-info">
-            <div className="usa-alert-body">
-              <h3 className="usa-alert-heading">Announcement</h3>
-              <p className="usa-alert-text">
+          <div className="alert alert-info">
+            <div className="alert-body">
+              <h3 className="alert-heading">Announcement</h3>
+              <p className="alert-text">
                 The Bureau issued a{' '}
                 <a href="https://www.consumerfinance.gov/about-us/newsroom/bureau-consumer-financial-protection-issues-statement-implementation-economic-growth-regulatory-relief-and-consumer-protection-act-amendments-home-mortgage-disclosure-act/">
                   statement
