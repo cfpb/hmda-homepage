@@ -141,6 +141,11 @@ const Home = () => {
                   Snapshot National Loan-Level Dataset
                 </a>
               </li>
+              <li>
+                <a href="/data-publication/dynamic-national-loan-level-dataset">
+                  Dynamic National Loan-Level Dataset
+                </a>
+              </li>
             </ul>
           </header>
 
