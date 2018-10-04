@@ -17,13 +17,15 @@ const Home = () => {
             <div className="usa-alert-body">
               <h3 className="usa-alert-heading">Announcement</h3>
               <p className="usa-alert-text">
-                The Bureau issued a{' '}
-                <a href="https://www.consumerfinance.gov/about-us/newsroom/bureau-consumer-financial-protection-issues-statement-implementation-economic-growth-regulatory-relief-and-consumer-protection-act-amendments-home-mortgage-disclosure-act/">
-                  statement
+                On August 31st, 2018, the Bureau released the{' '}
+                <a href="https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/partial-exemptions-from-requirements-of-home-mortgage-disclosure-act-under-regulation-c/">
+                  2018 HMDA Rule
                 </a>{' '}
-                providing further information on the implementation of the
-                Economic Growth, Regulatory Relief, and Consumer Protection Act
-                amendments to the Home Mortgage Disclosure Act.
+                and an updated{' '}
+                <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">
+                  2018 FIG
+                </a>
+                .
               </p>
             </div>
           </div>
