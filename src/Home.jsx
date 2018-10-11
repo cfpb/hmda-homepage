@@ -18,13 +18,15 @@ const Home = () => {
             <div className="alert-body">
               <h3 className="alert-heading">Announcement</h3>
               <p className="alert-text">
-                The Bureau issued a{' '}
-                <a href="https://www.consumerfinance.gov/about-us/newsroom/bureau-consumer-financial-protection-issues-statement-implementation-economic-growth-regulatory-relief-and-consumer-protection-act-amendments-home-mortgage-disclosure-act/">
-                  statement
+                On August 31st, 2018, the Bureau released the{' '}
+                <a href="https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/partial-exemptions-from-requirements-of-home-mortgage-disclosure-act-under-regulation-c/">
+                  2018 HMDA Rule
                 </a>{' '}
-                providing further information on the implementation of the
-                Economic Growth, Regulatory Relief, and Consumer Protection Act
-                amendments to the Home Mortgage Disclosure Act.
+                and an updated{' '}
+                <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">
+                  2018 FIG
+                </a>
+                .
               </p>
             </div>
           </div>
@@ -120,7 +122,7 @@ const Home = () => {
             </p>
             <ul>
               <li>
-                <a href="/data-publication/modified-lar">Modifed LAR</a>
+                <a href="/data-publication/modified-lar">Modified LAR</a>
               </li>
               <li>
                 <a href="/data-publication/disclosure-reports/2017">
@@ -142,6 +144,11 @@ const Home = () => {
                   Snapshot National Loan-Level Dataset
                 </a>
               </li>
+              <li>
+                <a href="/data-publication/dynamic-national-loan-level-dataset">
+                  Dynamic National Loan-Level Dataset
+                </a>
+              </li>
             </ul>
           </header>
 
@@ -160,7 +167,7 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="/tools/lar-formatting">LAR formatting</a>
+                <a href="/tools/lar-formatting">LAR Formatting</a>
               </li>
               <li>
                 <a href="/tools/rate-spread">Rate Spread</a>
