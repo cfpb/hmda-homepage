@@ -24,14 +24,18 @@ volumes: [
       }
 
     stage('Deploy') {
-      when {
-        expression { return gitBranch == 'v2' }
-      }
-      container('helm') {
-        sh "helm upgrade --install --force --namespace=default --values=kubernetes/hmda-homepage/values.yaml --set image.tag=${gitBranch} hmda-homepage kubernetes/hmda-homepage"
+      if (env.BRANCH_NAME == 'v2') {
+        container('helm') {
+          sh "helm upgrade --install --force \
+            --namespace=default \
+            --values=kubernetes/hmda-homepage/values.yaml \
+            --set image.tag=${gitBranch} \
+            hmda-homepage \
+            kubernetes/hmda-homepage"
+        }
       }
     }
 
-   }
+  }
 
 }
