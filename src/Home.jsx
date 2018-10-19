@@ -58,18 +58,10 @@ const Home = () => {
             <ul>
               <li>
                 <a
-                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2017-hmda-fig.pdf"
+                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf"
                   download={true}
                 >
-                  For data collected in 2017
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig.pdf"
-                  download={true}
-                >
-                  For data collected in or after 2018
+                  For data collected in 2019
                 </a>
               </li>
               <li>
@@ -77,8 +69,23 @@ const Home = () => {
                   href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf"
                   download={true}
                 >
-                  For data collected in or after 2018 incorporating the 2018
-                  HMDA Rule
+                  For data collected in 2018 incorporating the 2018 HMDA Rule
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig.pdf"
+                  download={true}
+                >
+                  For data collected in 2018
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2017-hmda-fig.pdf"
+                  download={true}
+                >
+                  For data collected in 2017
                 </a>
               </li>
               <li>
