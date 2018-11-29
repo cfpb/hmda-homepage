@@ -17,7 +17,7 @@ volumes: [
             withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'hmda-platform-jenkins-service',
               usernameVariable: 'DTR_USER', passwordVariable: 'DTR_PASSWORD']]) {
               withCredentials([string(credentialsId: 'internal-docker-registry', variable: 'DOCKER_REGISTRY_URL')]){
-                sh "docker build --rm -t=${env.DOCKER_HUB_USER}/hmda-pub-ui ."
+                sh "docker build --rm -t=${env.DOCKER_HUB_USER}/hmda-homepage ."
                 if (env.TAG_NAME != null || gitBranch == "v2") {
                   if (gitBranch == "v2") {
                     env.DOCKER_TAG = "latest"
@@ -25,12 +25,12 @@ volumes: [
                     env.DOCKER_TAG = env.TAG_NAME
                   }
                   sh """
-                    docker tag ${env.DOCKER_HUB_USER}/hmda-pub-ui ${env.DOCKER_HUB_USER}/hmda-pub-ui:${env.DOCKER_TAG}
+                    docker tag ${env.DOCKER_HUB_USER}/hmda-homepage ${env.DOCKER_HUB_USER}/hmda-homepage:${env.DOCKER_TAG}
                     docker login -u ${env.DOCKER_HUB_USER} -p ${env.DOCKER_HUB_PASSWORD} 
-                    docker push ${env.DOCKER_HUB_USER}/hmda-pub-ui:${env.DOCKER_TAG}
-                    docker tag ${env.DOCKER_HUB_USER}/hmda-pub-ui:${env.DOCKER_TAG} ${DOCKER_REGISTRY_URL}/${env.DOCKER_HUB_USER}/hmda-pub-ui:${env.DOCKER_TAG}
+                    docker push ${env.DOCKER_HUB_USER}/hmda-homepage:${env.DOCKER_TAG}
+                    docker tag ${env.DOCKER_HUB_USER}/hmda-homepage:${env.DOCKER_TAG} ${DOCKER_REGISTRY_URL}/${env.DOCKER_HUB_USER}/hmda-homepage:${env.DOCKER_TAG}
                     docker login ${DOCKER_REGISTRY_URL} -u ${env.DTR_USER} -p ${env.DTR_PASSWORD} 
-                    docker push ${DOCKER_REGISTRY_URL}/${env.DOCKER_HUB_USER}/hmda-pub-ui:${env.DOCKER_TAG}
+                    docker push ${DOCKER_REGISTRY_URL}/${env.DOCKER_HUB_USER}/hmda-homepage:${env.DOCKER_TAG}
                     docker image prune -f
                   """
                 }
