@@ -4,32 +4,28 @@ import './Home.css'
 const Home = () => {
   return (
     <main className="home" id="main-content">
-      <div className="usa-grid">
-        <div className="usa-width-one-whole">
-          <header>
-            <h1>The Home Mortgage Disclosure Act</h1>
-            <p className="usa-font-lead">
-              HMDA requires many financial institutions to maintain, report, and
-              publicly disclose information about mortgages.
-            </p>
-          </header>
+      <header>
+        <h1>The Home Mortgage Disclosure Act</h1>
+        <p className="usa-font-lead">
+          HMDA requires many financial institutions to maintain, report, and
+          publicly disclose information about mortgages.
+        </p>
+      </header>
 
-          <div className="alert alert-info">
-            <div className="alert-body">
-              <h3 className="alert-heading">Announcement</h3>
-              <p className="alert-text">
-                On August 31st, 2018, the Bureau released the{' '}
-                <a href="https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/partial-exemptions-from-requirements-of-home-mortgage-disclosure-act-under-regulation-c/">
-                  2018 HMDA Rule
-                </a>{' '}
-                and an updated{' '}
-                <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">
-                  2018 FIG
-                </a>
-                .
-              </p>
-            </div>
-          </div>
+      <div className="alert alert-info">
+        <div className="alert-body">
+          <h3 className="alert-heading">Announcement</h3>
+          <p className="alert-text">
+            On August 31st, 2018, the Bureau released the{' '}
+            <a href="https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/partial-exemptions-from-requirements-of-home-mortgage-disclosure-act-under-regulation-c/">
+              2018 HMDA Rule
+            </a>{' '}
+            and an updated{' '}
+            <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">
+              2018 FIG
+            </a>
+            .
+          </p>
         </div>
       </div>
       <div className="card-container">
