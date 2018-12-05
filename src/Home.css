@@ -6,6 +6,10 @@
   margin: 0 auto;
   max-width: 1040px;
 }
+
+.home .font-lead {
+  font-size: 1.25em;
+}
 .home h1 {
   font-family: SourceSansProBold;
   margin-bottom: 0;
@@ -52,14 +56,12 @@
   background-position: 2rem 2rem;
   background-repeat: no-repeat;
   background-size: 5.2rem;
-  margin: 0 auto;
-  margin-top: 1.5em;
+  margin: 1.5em 0;
   padding-bottom: 1.4rem;
   padding-left: 3rem;
   padding-right: 2rem;
   padding-top: 2rem;
   position: relative;
-  max-width: 1040px;
 }
 .alert::before {
   background-color: #8b8b8b;
