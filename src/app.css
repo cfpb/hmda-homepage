@@ -11,8 +11,15 @@
   src: url(./fonts/sourcesanspro-italic-webfont.woff);
 }
 html {
+  box-sizing: border-box;
   font-family: SourceSansPro;
   font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 body {
   margin: 0;
@@ -54,4 +61,63 @@ h4,
 h5,
 h6 {
   font-family: SourceSansProBold;
+}
+
+.usa-grid-full {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.usa-grid-full::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.usa-grid-full {
+  padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .usa-width-one-whole {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  .usa-width-one-whole:last-child {
+    margin-right: 0;
+  }
+
+  .usa-width-one-half {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+  }
+  .usa-width-one-half:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .usa-width-one-whole {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  .usa-width-one-whole:last-child {
+    margin-right: 0;
+  }
+
+  .usa-width-one-half {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+  .usa-width-one-half:last-child {
+    margin-right: 0;
+  }
 }
