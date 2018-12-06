@@ -35,8 +35,12 @@ const Home = () => {
           <div className="card">
             <header>
               <h3>
-                <a href="/filing/" rel="noopener noreferrer" target="_blank">
-                  Get started filing your HMDA data
+                <a
+                  href="/filing/2018/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Get started filing your HMDA data for 2018
                 </a>
               </h3>
               <p>
@@ -46,13 +50,18 @@ const Home = () => {
                 accuracy and completeness of the data, and submit data for the
                 filing year.
               </p>
+              <a href="/filing/" rel="noopener noreferrer" target="_blank">
+                Access the 2017 HMDA Platform
+              </a>
             </header>
 
-            <h4>Help for Filers</h4>
-            <p>
-              Published resources for financial institutions required to file
-              Home Mortgage Disclosure Act (HMDA) data.
-            </p>
+            <header>
+              <h3>Help for Filers</h3>
+              <p>
+                Published resources for financial institutions required to file
+                Home Mortgage Disclosure Act (HMDA) data.
+              </p>
+            </header>
             <ul>
               <li>Filing Instructions Guide</li>
               <ul>
@@ -113,6 +122,32 @@ const Home = () => {
           <div className="card">
             <header>
               <h3>
+                <a href="/tools/">Tools</a>
+              </h3>
+              <p>
+                Here you can find various tools to assist you in getting your
+                HMDA LAR ready for filing.
+              </p>
+              <ul>
+                <li>
+                  <a href="/tools/rate-spread">Rate Spread</a>
+                </li>
+                <li>
+                  <a href="/tools/check-digit">Check Digit</a>
+                </li>
+                <li>
+                  <a href="/tools/file-format-verification">
+                    File Format Verification
+                  </a>
+                </li>
+                <li>
+                  <a href="/tools/lar-formatting">LAR Formatting</a>
+                </li>
+              </ul>
+            </header>
+
+            <header>
+              <h3>
                 <a href="/data-publication/">Data Publication</a>
               </h3>
               <p>
@@ -147,32 +182,6 @@ const Home = () => {
                   <a href="/data-publication/dynamic-national-loan-level-dataset">
                     Dynamic National Loan-Level Dataset
                   </a>
-                </li>
-              </ul>
-            </header>
-
-            <header>
-              <h3>
-                <a href="/tools/">Tools</a>
-              </h3>
-              <p>
-                Here you can find various tools to assist you in getting your
-                HMDA LAR ready for filing.
-              </p>
-              <ul>
-                <li>
-                  <a href="/tools/file-format-verification">
-                    File Format Verification
-                  </a>
-                </li>
-                <li>
-                  <a href="/tools/lar-formatting">LAR Formatting</a>
-                </li>
-                <li>
-                  <a href="/tools/rate-spread">Rate Spread</a>
-                </li>
-                <li>
-                  <a href="/tools/check-digit">Check Digit</a>
                 </li>
               </ul>
             </header>
