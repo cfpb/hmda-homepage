@@ -1,14 +1,8 @@
-import '@babel/polyfill'
+import 'react-app-polyfill/ie11' // For IE 11 support
+
 import React from 'react'
-import { render } from 'react-dom'
-import App from './App.jsx'
-import '../dist/css/app.min.css'
+import ReactDOM from 'react-dom'
 
-if (process.env.NODE_ENV !== 'production') {
-  const { whyDidYouUpdate } = require('why-did-you-update')
-  whyDidYouUpdate(React)
-}
+import App from './App'
 
-window.HMDA_ENV = {}
-
-render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('root'))
