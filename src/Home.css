@@ -1,6 +1,7 @@
 .home {
-  margin: 3em auto 0;
+  margin: 0 auto;
   max-width: 1040px;
+  padding: 0 3rem;
 }
 .home > .header {
   margin: 0 auto;
@@ -40,7 +41,7 @@
   margin: 0;
 }
 .home p {
-  color: $color-gray;
+  color: #5b616b;
   margin-top: 0;
 }
 .home ul ul {

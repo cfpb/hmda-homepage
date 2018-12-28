@@ -1,6 +1,9 @@
 .Footer {
   background: #f1f1f1;
 }
+.Footer .unstyled-list li {
+   margin-bottom: 0;
+}
 .Footer .home-link {
   color: #1f498f;
   font-family: SourceSansProBold;
@@ -15,7 +18,7 @@
   align-items: stretch;
   display: flex;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 3rem;
   max-width: 1040px;
 }
 
@@ -42,5 +45,6 @@
 
 .return-to-top {
   margin: 0 auto 1em;
+  padding: 0 3rem;
   max-width: 1040px;
 }
