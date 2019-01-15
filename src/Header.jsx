@@ -6,7 +6,6 @@ import logo from './images/ffiec-logo.svg'
 
 const links = [
   { name: 'Home', href: '/' },
-  { name: 'Filing', href: '/filing/2018/' },
   { name: 'Data Publication', href: '/data-publication/' },
   { name: 'Tools', href: '/tools/' }
 ]
@@ -37,10 +36,6 @@ const Header = () => {
                       href={link.href}
                       className={
                         link.name === 'Home' ? 'nav-link active' : 'nav-link'
-                      }
-                      target={link.name === 'Filing' ? '_blank' : null}
-                      rel={
-                        link.name === 'Filing' ? 'noopener noreferrer' : null
                       }
                     >
                       {link.name}

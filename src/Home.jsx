@@ -13,17 +13,21 @@ const Home = () => {
           </p>
         </header>
 
-        <div className="alert alert-info usa-width-one-whole">
+        <div className="alert alert-error usa-width-one-whole">
           <div className="alert-body">
-            <h3 className="alert-heading">Announcement</h3>
+            <h3 className="alert-heading">
+              Sorry, the HMDA filing is currently unavailable.
+            </h3>
             <p className="alert-text">
-              On August 31st, 2018, the Bureau released the{' '}
-              <a href="https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/partial-exemptions-from-requirements-of-home-mortgage-disclosure-act-under-regulation-c/">
-                2018 HMDA Rule
-              </a>{' '}
-              and an updated{' '}
-              <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">
-                2018 FIG
+              We are working to resolve the issue as soon as possible. Please
+              try back again soon. All other tools, publication, and content are
+              still available, including the{' '}
+              <a
+                href="https://ffiec.cfpb.gov/filing/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                2017 HMDA Platform
               </a>
               .
             </p>
@@ -33,32 +37,6 @@ const Home = () => {
       <div className="usa-grid-full">
         <div className="card-container">
           <div className="card">
-            <header>
-              <h3>
-                <a
-                  href="/filing/2018/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Get started filing your HMDA data for 2018
-                </a>
-              </h3>
-              <p>
-                Beginning with HMDA data collected in or after 2017, financial
-                institutions will use the HMDA Platform to upload their
-                loan/application registers (LARs), review edits, certify the
-                accuracy and completeness of the data, and submit data for the
-                filing year.
-              </p>
-              <a
-                href="https://ffiec.cfpb.gov/filing/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Access the 2017 HMDA Platform
-              </a>
-            </header>
-
             <header>
               <h3>Help for Filers</h3>
               <p>
