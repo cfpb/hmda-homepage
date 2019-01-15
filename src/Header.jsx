@@ -4,13 +4,6 @@ import BannerUSA from './BannerUSA'
 import './Header.css'
 import logo from './images/ffiec-logo.svg'
 
-const links = [
-  { name: 'Home', href: '/' },
-  { name: 'Filing', href: '/filing/2018/' },
-  { name: 'Data Publication', href: '/data-publication/' },
-  { name: 'Tools', href: '/tools/' }
-]
-
 const Header = () => {
   return (
     <React.Fragment>
@@ -28,28 +21,6 @@ const Header = () => {
               </a>
             </span>
           </div>
-          <nav className="nav">
-            <ul className="nav-primary">
-              {links.map(link => {
-                return (
-                  <li key={link.name}>
-                    <a
-                      href={link.href}
-                      className={
-                        link.name === 'Home' ? 'nav-link active' : 'nav-link'
-                      }
-                      target={link.name === 'Filing' ? '_blank' : null}
-                      rel={
-                        link.name === 'Filing' ? 'noopener noreferrer' : null
-                      }
-                    >
-                      {link.name}
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-          </nav>
         </div>
       </header>
     </React.Fragment>
