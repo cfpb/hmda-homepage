@@ -20,7 +20,7 @@ const Home = () => {
               unavailable.
             </h3>
             <p className="alert-text">
-              We are perfroming scheduled maintenance.We should be back online shortly
+              We are performing scheduled maintenance.We should be back online shortly.
             </p>
           </div>
         </div>
