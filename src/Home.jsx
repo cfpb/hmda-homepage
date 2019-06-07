@@ -20,8 +20,7 @@ const Home = () => {
               unavailable.
             </h3>
             <p className="alert-text">
-              We are working to resolve the issue as soon as possible. Please
-              try back again soon.
+              We are performing scheduled maintenance. We should be back online shortly.
             </p>
           </div>
         </div>
