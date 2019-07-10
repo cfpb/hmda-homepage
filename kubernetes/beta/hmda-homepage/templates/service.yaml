@@ -30,7 +30,7 @@ metadata:
       apiVersion: ambassador/v0
       kind: Mapping
       name: hmda_homepage_mapping
-      ambassador_id: ambassador-default-1
+      ambassador_id: ambassador-beta-2
       prefix: /
       rewrite: /
       service: {{ include "hmda-homepage.fullname" . }}:{{ .Values.service.port }}
