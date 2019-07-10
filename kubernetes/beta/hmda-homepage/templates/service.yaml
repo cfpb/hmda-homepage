@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "hmda-homepage.fullname" . }}
+  labels:
+    app: {{ include "hmda-homepage.name" . }}
+    chart: {{ include "hmda-homepage.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ include "hmda-homepage.name" . }}
+    release: {{ .Release.Name }}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels: 
+    service: {{ include "hmda-homepage.fullname" . }}-ambassador
+  name: {{ include "hmda-homepage.fullname" . }}-ambassador
+  annotations:
+    getambassador.io/config: |
+      apiVersion: ambassador/v0
+      kind: Mapping
+      name: hmda_homepage_mapping
+      ambassador_id: ambassador-beta-2
+      prefix: /
+      rewrite: /
+      service: {{ include "hmda-homepage.fullname" . }}:{{ .Values.service.port }}
+spec:
+  clusterIP: None
+  ports:
+    - port: {{ .Values.service.port }}
