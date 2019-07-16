@@ -17,15 +17,10 @@ const Home = () => {
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
-              On August 31st, 2018, the Bureau released the{' '}
-              <a href="https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/partial-exemptions-from-requirements-of-home-mortgage-disclosure-act-under-regulation-c/">
-                2018 HMDA Rule
-              </a>{' '}
-              and an updated{' '}
-              <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">
-                2018 FIG
-              </a>
-              .
+             The Bureau has released a minor update to the{' '}
+              <a href="https://github.com/cfpb/hmda-pub-ui/files/3393458/Filing.instructions.guide.for.HMDA.data.collected.in.2019.pdf">
+                2019 FIG
+              </a>.
             </p>
           </div>
         </div>
