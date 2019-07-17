@@ -66,7 +66,7 @@ const Home = () => {
               <ul>
                 <li>
                   <a
-                    href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf"
+                    href="https://github.com/cfpb/hmda-pub-ui/files/3393458/Filing.instructions.guide.for.HMDA.data.collected.in.2019.pdf"
                     download={true}
                   >
                     For data collected in 2019
