@@ -17,7 +17,7 @@ const Home = () => {
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
-             The Bureau has released a minor update to the{' '}
+             On July 17th, the Bureau released a minor update to the{' '}
               <a href="https://github.com/cfpb/hmda-pub-ui/files/3393458/Filing.instructions.guide.for.HMDA.data.collected.in.2019.pdf">
                 2019 FIG
               </a>.
