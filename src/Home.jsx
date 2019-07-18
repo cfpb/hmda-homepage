@@ -18,7 +18,7 @@ const Home = () => {
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
              On July 17th, 2019 the Bureau released a minor update to the{' '}
-              <a href="https://github.com/cfpb/hmda-pub-ui/files/3393458/Filing.instructions.guide.for.HMDA.data.collected.in.2019.pdf">
+              <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">
                 2019 FIG
               </a>.
             </p>
@@ -66,7 +66,7 @@ const Home = () => {
               <ul>
                 <li>
                   <a
-                    href="https://github.com/cfpb/hmda-pub-ui/files/3393458/Filing.instructions.guide.for.HMDA.data.collected.in.2019.pdf"
+                    href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf"
                     download={true}
                   >
                     For data collected in 2019
