@@ -120,7 +120,13 @@ const Home = () => {
               <li>
                 <a href="https://hmdahelp.consumerfinance.gov/knowledgebase/s/">
                   Self Service Knowledge Portal
-                </a>
+                </a>: Contains answers to frequently asked HMDA Operations questions.
+              </li>
+              <li>
+                For answers to frequently asked HMDA regulatory questions, please visit the{' '}
+                <a href="https://www.consumerfinance.gov/policy-compliance/guidance/hmda-implementation/">
+                  CFPB&apos;s Regulatory Implementation Website
+                </a>.
               </li>
             </ul>
           </div>
