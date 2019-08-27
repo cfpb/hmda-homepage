@@ -129,9 +129,25 @@ const Home = () => {
                 </a>.
               </li>
             </ul>
+            <header>
+              <h3>
+                <a href="/documentation/">Documentation</a>
+              </h3>
+              <p>
+                On August 30, 2019, a site dedicated to documentation of HMDA publication products was released.
+              </p>
+            </header>
           </div>
 
           <div className="card">
+            <header>
+              <h3>
+                <a href="/data-browser/">Data Browser</a>
+              </h3>
+              <p>
+                On August 30, 2019, the HMDA Data Browser, a tool that allows users to filter and download HMDA datasets, was released.
+              </p>
+            </header>
             <header>
               <h3>
                 <a href="/tools/">Tools</a>
