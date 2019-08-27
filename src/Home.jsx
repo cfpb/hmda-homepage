@@ -187,17 +187,17 @@ const Home = () => {
                   <a href="/data-publication/modified-lar">Modified LAR</a>
                 </li>
                 <li>
-                  <a href="/data-publication/disclosure-reports/2017">
+                  <a href="/data-publication/disclosure-reports/2018">
                     Disclosure Reports
                   </a>
                 </li>
                 <li>
-                  <a href="/data-publication/aggregate-reports/2017">
+                  <a href="/data-publication/aggregate-reports/2018">
                     MSA/MD Aggregate Reports
                   </a>
                 </li>
                 <li>
-                  <a href="/data-publication/national-aggregate-reports/2017">
+                  <a href="/data-publication/national-aggregate-reports/">
                     National Aggregate Reports
                   </a>
                 </li>
