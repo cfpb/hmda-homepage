@@ -17,11 +17,7 @@ const Home = () => {
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
-                On August 30, 2019, a site dedicated to <a href="/documentation/">documentation</a> of HMDA publication products was released.
-            </p>
-            <br/>
-            <p className="alert-text">
-                On August 30, 2019, the <a href="/data-browser/">HMDA Data Browser</a>, a tool that allows users to filter and download HMDA datasets, was released.
+                On August 30, 2019, the 2018 National Loan-Level Datasets, the new HMDA Data Browser, the new HMDA Documentation site, MSA/MD Aggregate Reports, and Disclosure Reports were released.
             </p>
           </div>
         </div>
@@ -143,7 +139,7 @@ const Home = () => {
           <div className="card">
             <header>
               <h3>
-                <a href="/data-browser/">Data Browser</a>
+                <a href="/data-browser/">HMDA Data Browser</a>
               </h3>
               <p>
                  The HMDA Data Browser is a tool that allows users to filter and download HMDA datasets.
