@@ -17,10 +17,11 @@ const Home = () => {
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
-             On July 17th, 2019 the Bureau released a minor update to the{' '}
-              <a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">
-                2019 FIG
-              </a>.
+                On August 30, 2019, a site dedicated to <a href="/documentation/">documentation</a> of HMDA publication products was released.
+            </p>
+            <br/>
+            <p className="alert-text">
+                On August 30, 2019, the <a href="/data-browser/">HMDA Data Browser</a>, a tool that allows users to filter and download HMDA datasets, was released.
             </p>
           </div>
         </div>
@@ -134,7 +135,7 @@ const Home = () => {
                 <a href="/documentation/">Documentation</a>
               </h3>
               <p>
-                On August 30, 2019, a site dedicated to documentation of HMDA publication products was released.
+                A collection of documentation resources for HMDA data publication products.
               </p>
             </header>
           </div>
@@ -145,7 +146,7 @@ const Home = () => {
                 <a href="/data-browser/">Data Browser</a>
               </h3>
               <p>
-                On August 30, 2019, the HMDA Data Browser, a tool that allows users to filter and download HMDA datasets, was released.
+                 The HMDA Data Browser is a tool that allows users to filter and download HMDA datasets.
               </p>
             </header>
             <header>
