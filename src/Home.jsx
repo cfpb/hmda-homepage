@@ -210,6 +210,14 @@ const Home = () => {
                 </li>
               </ul>
             </header>
+            <header>
+              <h3>
+                <a href="https://www.consumerfinance.gov/data-research/hmda/">Research and Reports</a>
+              </h3>
+              <p>
+                Research and reports on mortgage market activity
+              </p>
+            </header>
           </div>
         </div>
       </div>
