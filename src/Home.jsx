@@ -63,6 +63,14 @@ const Home = () => {
               <ul>
                 <li>
                   <a
+                    href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf"
+                    download={true}
+                  >
+                    For data collected in 2020
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf"
                     download={true}
                   >
@@ -101,6 +109,14 @@ const Home = () => {
                   for data submission resources.
                 </li>
               </ul>
+              <li>
+                <a
+                  href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers.pdf"
+                  download={true}
+                >
+                  Supplemental Guide for Quarterly Filers
+                </a>
+              </li>
               <li>
                 <a href="https://www.ffiec.gov/hmda/guide.htm">
                   Getting It Right Guide
