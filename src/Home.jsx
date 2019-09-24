@@ -17,7 +17,7 @@ const Home = () => {
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
-                On August 30, 2019, the 2018 National Loan-Level Datasets, the new HMDA Data Browser, the new HMDA Documentation site, MSA/MD Aggregate Reports, and Disclosure Reports were released.
+                On September 25th, 2019, the Bureau released the 2020 FIG and the Supplemental Guide for Quarterly Filers.
             </p>
           </div>
         </div>
