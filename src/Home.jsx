@@ -1,10 +1,12 @@
 import React from 'react'
+import Beta from './Beta.jsx'
 import './Home.css'
 
-const Home = () => {
+const Home = ({isBeta}) => {
   return (
     <main className="home" id="main-content">
       <div className=" usa-grid-full">
+        {isBeta ? <Beta/> : null}
         <header className="usa-width-one-whole">
           <h1>The Home Mortgage Disclosure Act</h1>
           <p className="font-lead">
@@ -12,7 +14,6 @@ const Home = () => {
             publicly disclose information about mortgages.
           </p>
         </header>
-
         <div className="alert alert-info usa-width-one-whole">
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
@@ -28,11 +29,11 @@ const Home = () => {
             <header>
               <h3>
                 <a
-                  href="/filing/2018/"
+                  href="/filing/2019/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Get started filing your HMDA data for 2018
+                  Get started filing your HMDA data for 2019
                 </a>
               </h3>
               <p>
@@ -42,6 +43,7 @@ const Home = () => {
                 accuracy and completeness of the data, and submit data for the
                 filing year.
               </p>
+              {isBeta ? null :
               <a
                 href="https://ffiec.cfpb.gov/filing/"
                 rel="noopener noreferrer"
@@ -49,6 +51,7 @@ const Home = () => {
               >
                 Access the 2017 HMDA Platform
               </a>
+              }
             </header>
 
             <header>
@@ -142,6 +145,7 @@ const Home = () => {
                 </a>.
               </li>
             </ul>
+            {isBeta ? null :
             <header>
               <h3>
                 <a href="/documentation/">Documentation</a>
@@ -150,6 +154,7 @@ const Home = () => {
                 A collection of documentation resources for HMDA data publication products.
               </p>
             </header>
+            }
           </div>
 
           <div className="card">
@@ -161,6 +166,7 @@ const Home = () => {
                  The HMDA Data Browser is a tool that allows users to filter and download HMDA datasets.
               </p>
             </header>
+           {isBeta ? null :
             <header>
               <h3>
                 <a href="/tools/">Tools</a>
@@ -186,7 +192,8 @@ const Home = () => {
                 </li>
               </ul>
             </header>
-
+            }
+            {isBeta ? null :
             <header>
               <h3>
                 <a href="/data-publication/">Data Publication</a>
@@ -226,6 +233,8 @@ const Home = () => {
                 </li>
               </ul>
             </header>
+           }
+           {isBeta ? null :
             <header>
               <h3>
                 <a href="https://www.consumerfinance.gov/data-research/hmda/">Research and Reports</a>
@@ -234,6 +243,7 @@ const Home = () => {
                 Research and reports on mortgage market activity
               </p>
             </header>
+           }
           </div>
         </div>
       </div>
