@@ -158,6 +158,7 @@ const Home = ({isBeta}) => {
           </div>
 
           <div className="card">
+            {isBeta ? null :
             <header>
               <h3>
                 <a href="/data-browser/">HMDA Data Browser</a>
@@ -166,6 +167,7 @@ const Home = ({isBeta}) => {
                  The HMDA Data Browser is a tool that allows users to filter and download HMDA datasets.
               </p>
             </header>
+          }
            {isBeta ? null :
             <header>
               <h3>

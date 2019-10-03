@@ -9,7 +9,6 @@ import './app.css'
 const betaLinks = [
   { name: 'Home', href: '/' },
   { name: 'Filing', href: '/filing/2019/' },
-  { name: 'Data Browser', href: '/data-browser/' }
 ]
 
 const App = () => {
