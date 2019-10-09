@@ -7,6 +7,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <div className="return-to-top">
+        {/* eslint-disable-next-line */}
         <a href="#">Return to top</a>
       </div>
       <footer className="Footer footer footer-slim" role="contentinfo">
