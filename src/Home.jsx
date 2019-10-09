@@ -83,7 +83,7 @@ const Home = ({isBeta}) => {
                 <li>
                   For data collected in or before 2018, please visit{' '}
                   <a
-                    href="/documentation/fig/"
+                    href="/documentation/2018/fig/"
                   >
                     our documentation page
                   </a>
