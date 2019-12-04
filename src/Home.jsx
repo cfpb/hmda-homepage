@@ -83,7 +83,7 @@ const Home = ({isBeta}) => {
                 <li>
                   For data collected in 2017 or 2018 please{' '}
                   <a
-                    href="/documentation/2018/fig/"
+                    href="https://ffiec.cfpb.gov/documentation/2018/fig/"
                   >
                     visit our documentation page
                   </a>
