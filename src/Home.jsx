@@ -1,8 +1,9 @@
 import React from 'react'
+import Announcement from './Announcement'
 import Beta from './Beta.jsx'
 import './Home.css'
 
-const Home = ({isBeta}) => {
+const Home = ({isBeta, announcement, filing}) => {
   return (
     <main className="home" id="main-content">
       <div className=" usa-grid-full">
@@ -14,14 +15,7 @@ const Home = ({isBeta}) => {
             publicly disclose information about mortgages.
           </p>
         </header>
-        <div className="alert alert-info usa-width-one-whole">
-          <div className="alert-body">
-            <h3 className="alert-heading">Announcement</h3>
-            <p className="alert-text">
-                On September 25th, 2019, the Bureau released the 2020 FIG and the Supplemental Guide for Quarterly Filers.
-            </p>
-          </div>
-        </div>
+        <Announcement text={announcement} />
       </div>
       <div className="usa-grid-full">
         <div className="card-container">
@@ -29,11 +23,11 @@ const Home = ({isBeta}) => {
             <header>
               <h3>
                 <a
-                  href="/filing/2018/"
+                  href={filing.link}
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Get started filing your HMDA data for 2018
+                  Get started filing your HMDA data for {filing.year}
                 </a>
               </h3>
               <p>
