@@ -29,11 +29,11 @@ const Home = ({isBeta}) => {
             <header>
               <h3>
                 <a
-                  href="/filing/2019/"
+                  href="/filing/2018/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Get started filing your HMDA data for 2019
+                  Get started filing your HMDA data for 2018
                 </a>
               </h3>
               <p>
