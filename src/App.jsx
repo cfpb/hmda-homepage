@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Home from './Home'
 import Footer from './Footer'
-import { fetchEnvConfig, findObjIndex } from './configUtils'
+import { fetchEnvConfig, findObjIndex, getEnvConfig, isBeta } from './configUtils'
 import { betaLinks, defaultLinks } from './links'
 
 import './app.css'
@@ -10,7 +10,7 @@ import './app.css'
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.isBeta = !!window.location.host.match('beta')
+    this.isBeta = isBeta(window.location.host)
     const links = this.isBeta ? betaLinks : defaultLinks
     this.state = {
       links,
@@ -25,8 +25,9 @@ class App extends React.Component {
   componentDidMount() {
     fetchEnvConfig()
       .then(config => {
-        this.updateFilingLink(this.isBeta ? config.beta : config)
-        this.setState(this.isBeta ? {...config.beta} : {...config} )
+        const envConfig = getEnvConfig(config, window.location.host)
+        this.updateFilingLink(envConfig)
+        this.setState({...envConfig})
       })
       .catch(() => null)
   }
