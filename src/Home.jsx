@@ -18,7 +18,7 @@ const Home = ({isBeta}) => {
           <div className="alert-body">
             <h3 className="alert-heading">Announcement</h3>
             <p className="alert-text">
-                On September 25th, 2019, the Bureau released the 2020 FIG and the Supplemental Guide for Quarterly Filers.
+              HMDA Filing season begins Jan. 1st. See our 2019 Documentation page for filing FAQs and other useful information.
             </p>
           </div>
         </div>
